@@ -1,15 +1,1 @@
-@media only screen and (min-width: 900px) {
-  main {
-    width: 1400px;
-    margin: auto;
-  }
-  main section {
-    width: 100%;
-  }
-  main section#intro p.title {
-    font-size: 240px;
-    text-align: center;
-    font-weight: 900;
-    margin-top: 100px;
-  }
-}/*# sourceMappingURL=intro.css.map */
+/*# sourceMappingURL=intro.css.map */
