@@ -5,12 +5,20 @@
 
 /* 작업 css */
 @import url(./src/css/header.css);
-@import url(./src/css/intro.css);
-@import url(./src/css/project.css);
-@import url(./src/css/work.css);
-@import url(./src/css/uxui.css);
-@import url(./src/css/about.css);
-@import url(./src/css/footer.css);
+@import url(./src/css/pages/intro.css);
+@import url(./src/css/pages/project.css);
+@import url(./src/css/pages/work.css);
+@import url(./src/css/pages/uxui.css);
+@import url(./src/css/pages/about.css);
+@import url(./src/css/pages/footer.css);
 
 /* font */
 @import url(./src/css/base/vars.css);
+
+/* layout */
+@import url(./src/css/pages/header.css);
+
+section{
+  height: 100vh;
+  border: 1px solid #000;
+}
