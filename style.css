@@ -1,0 +1,16 @@
+@charset "uft-8";
+
+/* stting */
+@import url(./src/css/base/reset.css);
+
+/* 작업 css */
+@import url(./src/css/header.css);
+@import url(./src/css/intro.css);
+@import url(./src/css/project.css);
+@import url(./src/css/work.css);
+@import url(./src/css/uxui.css);
+@import url(./src/css/about.css);
+@import url(./src/css/footer.css);
+
+/* font */
+@import url(./src/css/base/vars.css);

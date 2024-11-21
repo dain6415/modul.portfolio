@@ -1,0 +1,48 @@
+@import url(./font.css);
+:root {
+  --mainEng-font: Pretendard Variable;
+  --mainKor-font: "Cormorant Garamond";
+  --mainNum: "Cormorant Garamond";
+
+  --mainBg-color: #F5F5F5;
+  --mainBg100-color: #333;
+  --mainBg200-color: #333;
+  --mainBg300-color: #333;
+  --mainBg400-color: #333;
+  --mainBg500-color: #333;
+
+  --subBg-color: #333;
+  --subBg100-color: #333;
+  --subBg200-color: #333;
+  --subBg300-color: #333;
+  --subBg400-color: #333;
+  --subBg500-color: #333;
+
+  --white: #fff;
+  --white100r: #ddd;
+  --white200r: #bbb;
+
+  --black: #000;
+  --black100r: #111;
+  --black200r: #333;
+  --black300r: #555;
+  --black400r: #666;
+  --black500r: #888;
+  --black600r: #999;
+
+  font-family: var(--mainEng-font);
+  font-size: 16px;
+  line-height: 1.5rem;
+  font-weight: 400;
+
+  text-rendering: optimizeLegibility;
+  -webkit-font-smooting:antialiased;
+  -webkit-text-size-adjust: 100%;
+  
+}
+
+body{
+  color: var(--black200r);
+  background-color: var(--mainBg-color);
+  font-family: var(--mainEng-font);
+}

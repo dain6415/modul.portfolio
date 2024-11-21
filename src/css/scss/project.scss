@@ -1,0 +1,59 @@
+@import url(../base/vars.css);
+@mixin po-c {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+@mixin flex-c($justify: center) {
+  display: flex;
+  justify-content: $justify;
+  align-items: center;
+}
+// ***************************************************************************************************************************
+
+@media only screen and (max-width: 600px) {
+}
+// ----------------------------------------------------------------------
+
+@media only screen and (min-width: 601px) {
+}
+// ----------------------------------------------------------------------
+
+@media only screen and (min-width: 900px) {
+  main {
+    width: 1400px;
+    margin: auto;
+    section {
+      width: 100%;
+      &#project {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(2, 330px);
+        .item{
+          border: 1px solid #000;
+          border-bottom: 0;
+          padding: 20px;
+          &.item1{
+            grid-column: 1 / span 2;
+            border-top: 0;
+            border-right: 0;
+            background: var(--white);
+            p.item__title{
+              text-transform: uppercase;
+              font-size: 100px;
+              font-weight: 700;
+            }
+          }
+          &.item2{
+            grid-column: 3 / span 2;
+            border-top: 0;
+          }
+          &.item3, &.item4, &.item5{
+            border-right: 0;
+          }
+        }
+      }
+    }
+  }
+}
