@@ -4,7 +4,7 @@
 @import url(./src/css/base/reset.css);
 
 /* 작업 css */
-@import url(./src/css/header.css);
+@import url(./src/css/pages/header.css);
 @import url(./src/css/pages/intro.css);
 @import url(./src/css/pages/project.css);
 @import url(./src/css/pages/work.css);
@@ -16,7 +16,7 @@
 @import url(./src/css/base/vars.css);
 
 /* layout */
-@import url(./src/css/pages/header.css);
+/* @import url(./src/css/pages/header.css); */
 
 section{
   height: 100vh;

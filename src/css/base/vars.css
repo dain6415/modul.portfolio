@@ -45,4 +45,6 @@ body{
   color: var(--black200r);
   background-color: var(--black400r);
   font-family: var(--mainEng-font);
+  color: #4af1ba;
 }
+
